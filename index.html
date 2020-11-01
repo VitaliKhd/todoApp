@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>DZ5Vitali</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	  	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<form class="top-line">
+				<div class="input-group flex-nowrap">
+				  <div class="input-group-prepend">
+				    <label for="nameAnimal" class="input-group-text">Имя животного</label>
+				  </div>
+				  	<input type="text" name="form-control-one" class="form-control" placeholder="Имя" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+				<div class="input-group flex-nowrap">
+				  <div class="input-group-prepend">
+				    <label  for="owner" class="input-group-text" id="addon-wrapping">Владелец</label>
+				  </div>
+				  <input type="text" name="form-control-two" class="form-control" placeholder="Владелец" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+				<div class="input-group flex-nowrap">
+				  <div class="input-group-prepend">
+				    <label for="date" class="input-group-text" id="addon-wrapping">Дата</label>
+				  </div>
+				  <input type="date" name="form-control-three" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+				<div class="input-group flex-nowrap">
+				  <div class="input-group-prepend">
+				    <label for="time" class="input-group-text" id="addon-wrapping">Время</label>
+				  </div>
+				  <input type="time" name="form-control-four" class="form-control" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+				<div class="input-group flex-nowrap">
+				  <div class="input-group-prepend">
+				    <label for="notes" class="input-group-text" id="addon-wrapping">Заметки</label>
+				  </div>
+				  <textarea type="text" name="form-control-five" class="form-control" placeholder="Заметки" aria-label="Username" aria-describedby="addon-wrapping"></textarea>
+				</div>
+				<div class="input-group flex-nowrap">
+					<div class="input-group-prepend">
+				    	<label for="btn" class="input-group-text" id="addon-wrapping"></label>
+					</div>
+					<button type="submit" class="btn btn-primary">Добавить</button>
+				</div>
+			</form>
+			<div class="midle-line">
+				<div class="input-group flex-nowrap">
+					<div class="input-group-prepend">
+					    <label for="primapy" class="input-group-text" id="addon-wrapping"></label>
+					</div>
+					<input type="text" name="searchField" class="form-control" placeholder="Search by name" aria-label="Username" aria-describedby="addon-wrapping">
+				</div>
+			</div>
+			<div class="app-body">
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

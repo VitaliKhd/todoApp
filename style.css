@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.form-control {
+	margin: 10px 0;
+}
+
+input {
+	border-radius: 3px;
+}
+
+.input-group-text {
+	background: none;
+	border: none;
+	width: 140px;
+	padding-left: 0;
+}
+
+.btn.btn-primary {
+	margin-top: 10px;
+}
+
+.newButton {
+	background: #EE1133;
+	color: white;
+	width: 70px;
+	height: 30px;
+	border-radius: 2px;
+	margin: 10px;
+}
+
+.dateDirection {
+	margin-right: 5px;
+}
+
+.wrapperPart {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
